@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgray;
+}
+h1{
+    background-color: #4D4D4D;
+    text-align: center;
+    color: white;
+}
+.posicaoImg{
+    text-align: center;
+}
+img{
+    border: 2px solid black;
+}
+a{
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#tabelaProdutos{
+    text-align: center;
+    border-spacing: 20px;
+}
+.celulaLink{
+    background-color: #4D4D4D;
+    border: 2px solid black;
+    font-size: 30px;
+}
+p, li{
+    font-size: 20px;
+}
+h2{
+    background-color: #4D4D4D;
+    color: white;
+    text-indent: 10px;
+}
+.textoJustificado{
+    text-align: justify;
+}
+#tabelaValores{
+    border-spacing: 15px;
+    list-style-type: none;
+}
