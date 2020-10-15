@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="content" content="text/html"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SA 01 com CSS</title>
+    <link rel="stylesheet" type="text/css" href="css/estiloPagina.css"/>
+</head>
+<body>
+    <h1>Contato</h1>
+    <ul>
+        <li><b>Telefone:</b> (XX)XXXX-XXXX / (XX)XXXXX-XXXX</li>
+        <br/>
+        <li><b>E-mail:</b> ipa@email.com.br</li>
+        <br/>
+        <li>
+            <b>Endereço:</b> Rua xxxxxxxxx, N° xxxx, Bairro xxxxxxxxx, Cidade xxxxxxxxx, Estado xxxxxxxxx, CEP XXXXX-XXX
+        </li>
+    </ul>
+    <br/>
+    <h1>Cadastro</h1>
+    <div id="cadastro">
+        <input type="text" name="nome" maxlength="30" placeholder="Nome"/>
+        <br/><br/>
+        <input type="text" name="sobrenome" maxlength="30" placeholder="Sobrenome"/>
+        <br/><br/>
+        <input type="text" name="cpf" maxlength="10" placeholder="CPF"/>
+        <br/><br/>
+        <input type="tel" name="celular" maxlength="11" placeholder="Celular"/>
+        <br/><br/>
+        <input type="email" name="email" maxlength="30" placeholder="E-mail"/>
+        <br/><br/>
+        <input type="password" name="senha" maxlength="30" placeholder="Senha"/>
+        <br/><br/>
+        <input type="password" name="confirmarSenha" maxlength="30" placeholder="Confirmar senha"/>
+        <br/><br/>
+        <label for="informacao">Desejo receber informações por:</label>
+        <br/><br/>
+        <input type="checkbox" class="checkbox" name="email"/>
+        <label for="email">E-mail</label>
+        <br/><br/>
+        <input type="checkbox" class="checkbox" name="sms"/>
+        <label for="sms">SMS</label>
+        <br/><br/>
+        <input type="checkbox" class="checkbox" name="telefone"/>
+        <label for="telefone">Telefone</label>
+        <br/><br/>
+        <input type="submit" id="cadastrar" name="cadastrar" value="Cadastrar"/>
+        <a href="carros.html"><input type="button" id="voltar" name="voltar" value="Voltar"/></a>
+    </div>
+</body>
+</html>

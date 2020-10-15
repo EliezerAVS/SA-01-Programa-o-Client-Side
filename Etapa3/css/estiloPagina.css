@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgray;
+}
+h1{
+    background-color: #4D4D4D;
+    text-align: center;
+    color: white;
+}
+.posicaoImg{
+    text-align: center;
+}
+img{
+    border: 2px solid black;
+}
+a{
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#tabelaProdutos, #tabelaCarros{
+    text-align: center;
+    border-spacing: 20px;
+}
+.celulaLink, .celulaCarros{
+    background-color: #4D4D4D;
+    border: 2px solid black;
+    font-size: 30px;
+}
+p, li{
+    font-size: 20px;
+}
+h2{
+    background-color: #4D4D4D;
+    color: white;
+    text-indent: 10px;
+}
+.textoJustificado{
+    text-align: justify;
+}
+#tabelaValores{
+    border-spacing: 15px;
+    list-style-type: none;
+}
+.celulaCarros{
+    width: 50%;
+}
+.espec{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#cadastro{
+    background-color: #4D4D4D;
+    color: white;
+    width: 50%;
+    position: relative;
+    left: 25vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+input{
+    width: 60%;
+    height: 5vh;
+    font-size: 1.5vw;
+    text-indent: 5%;
+    position: relative;
+    left: 9vw;
+}
+.checkbox{
+    width: auto;
+    height: auto;
+}
+label{
+    font-size: 1.5vw;
+    position: relative;
+    left: 9vw;
+}
+#cadastrar{
+    width: 25%;
+    height: 5vh;
+    font-size: 1.5vw;
+    text-indent: 0;
+    position: relative;
+    left: 11vw;
+}
+#voltar{
+    width: 25%;
+    height: 5vh;
+    font-size: 1.5vw;
+    text-indent: 0;
+    position: relative;
+    left: 12vw;
+}
