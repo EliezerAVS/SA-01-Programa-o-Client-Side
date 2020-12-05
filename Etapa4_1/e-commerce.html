@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bolos - Carrinho</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <div class="menu">
+        <div class="itemMenu"><a class="linkMenu" href="./index.html#bolo1" target="_self" title="Página Inicial">Página Inicial</a></div>
+        <div class="itemMenu"><a class="linkMenu" href="./index.html#bolo1" target="_self" title="Empresa">Empresa</a></div>
+        <div class="itemMenu"><a class="linkMenu" href="./index.html#bolo1" target="_self" title="Produtos">Produtos</a></div>
+        <div class="itemMenu"><a class="linkMenu" href="./index.html#bolo1" target="_self" title="Contato">Contato</a></div>
+        <div class="itemMenu"><a class="linkMenu" href="./e-commerce.html" target="_self" title="Carrinho">Carrinho</a></div>
+    </div>
+    <div id="produtos">
+        <h1>Fábrica de Bolos</h1>
+        <table id="tabelaVendaBolos">
+            <tr>
+                <td>
+                    <a href="img/Bolo_4.jpg" target="_blank" title="Tradicional">
+                        <img src="img/Bolo_4.jpg" class="imgVendaBolos" alt="Tradicional"/>
+                    </a>
+                </td>
+                <td class="celulaVendaBolos">
+                    <h2>Tradicional</h2>
+                    <br/>
+                    <p>Preço (valor unitário): R$25,00</p>
+                    <label for="">Comprar:</label>
+                    <input type="number" id="qtdTradicional" value="0"/>
+                    <br/><br/>
+                    <input type="button" class="button" id="confirmarTradicional" value="Confirmar quantidade">
+                    <br/><br/>
+                    <p id="tradicionalSubTotal">Subtotal: R$</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="img/Bolo_5.jpg" target="_blank" title="Festa">
+                        <img src="img/Bolo_5.jpg" alt="Festa"/>
+                    </a>
+                </td>
+                <td class="celulaVendaBolos">
+                    <h2>Festa</h2>
+                    <br/>
+                    <p>Preço (valor unitário): R$60,00</p>
+                    <label for="">Comprar:</label>
+                    <input type="number" id="qtdFesta" value="0"/>
+                    <br/><br/>
+                    <input type="button" class="button" id="confirmarFesta" value="Confirmar quantidade">
+                    <br/><br/>
+                    <p id="festaSubTotal">Subtotal: R$</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="img/Bolo_6.jpg" target="_blank" title="Cupcakes">
+                        <img src="img/Bolo_6.jpg" alt="Cupcakes"/>
+                    </a>
+                </td>
+                <td class="celulaVendaBolos">
+                    <h2>Cupcakes</h2>
+                    <br/>
+                    <p>Preço (valor unitário): R$10,00</p>
+                    <label for="">Comprar:</label>
+                    <input type="number" id="qtdCupcake" value="0"/>
+                    <br/><br/>
+                    <input type="button" class="button" id="confirmarCupcake" value="Confirmar quantidade">
+                    <br/><br/>
+                    <p id="cupcakeSubTotal">Subtotal: R$</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="img/Bolo_7.jpg" target="_blank" title="Bolo de Pote">
+                        <img src="img/Bolo_7.jpg" alt="Bolo de Pote"/>
+                    </a>
+                </td>
+                <td class="celulaVendaBolos">
+                    <h2>Bolo de Pote</h2>
+                    <br/>
+                    <p>Preço (valor unitário): R$15,00</p>
+                    <label for="">Comprar:</label>
+                    <input type="number" id="qtdBoloPote" value="0"/>
+                    <br/><br/>
+                    <input type="button" class="button" id="confirmarBoloPote" value="Confirmar quantidade">
+                    <br/><br/>
+                    <p id="boloPoteSubTotal">Subtotal: R$</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="celulaVendaBolos" id="totalCompra" colspan="2">
+                    <input type="button" class="button" id="confirmarTotal" value="Confirmar valor total">
+                    <br/><br/>
+                    <p id="valorTotalCompra">Valor total da compra: R$</p>
+                    <div id="pagamento">
+                        <br/>
+                        <h2>Formas de pagamento</h2>
+                        <br/>
+                        <input type="radio" name="pagamento" id="boleto" value="Boleto"/>
+                        <label for="boleto">Boleto</label>
+                        <input type="radio" name="pagamento" id="CartaoCredito" value="Cartão de Crédito"/>
+                        <label for="CartaoCredito">Cartão de Crédito</label>
+                        <input type="radio" name="pagamento" id="CartaoDebito" value="Cartão de Débito"/>
+                        <label for="CartaoDebito">Cartão de Débito</label>
+                        <br/><br/>
+                        <a href="index.html#bolo1" target="_self"><input type="button" class="button" id="finalizarCompra" value="Finalizar compra"/></a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="rodape">
+        <div class="itemRodape">
+            <a href="https://www.instagram.com/?hl=pt-br" target="_blank" title="Instagram">
+                <img class="icone" src="img/Ícone_1.png" alt="Instagram"/>
+            </a>
+        </div>
+        <div class="itemRodape">
+            <a href="https://pt-br.facebook.com/" target="_blank" title="Facebook">
+                <img class="icone" src="img/Ícone_2.png" alt="Facebook"/>
+            </a>
+        </div>
+        <div class="itemRodape">
+            <a href="https://twitter.com/" target="_blank" title="Twitter">
+                <img class="icone" src="img/Ícone_3.png" alt="Twitter"/>
+            </a>
+        </div>
+        <div class="itemRodape">
+            <a href="#bolo1" target="_self" title="Topo">
+                <img class="icone" id="topo" src="img/Ícone_4.png" alt="Topo"/>
+            </a>
+        </div>
+    </div>
+    <script src="./js/calculo.js"></script>
+</body>
+</html>

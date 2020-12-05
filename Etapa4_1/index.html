@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bolos</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <div class="carrocel">
+        <div class="bolos" id="bolo1">
+            <div class="anterior"><a href="#bolo3" class="carrocelAnterior"><img src="img/Bolo_3.jpg" alt="Bolo" title="Anterior"></a></div>
+            <div class="imgCarrocel" id="imgCarrocel1"></div>
+            <div class="proximo"><a href="#bolo2" class="carrocelProximo"><img src="img/Bolo_2.jpg" alt="Bolo" title="Próximo"></a></div>
+        </div>
+        <div class="bolos" id="bolo2">
+            <div class="anterior"><a href="#bolo1" class="carrocelAnterior"><img src="img/Bolo_1.jpg" alt="Bolo" title="Anterior"></a></div>
+            <div class="proximo"><a href="#bolo3" class="carrocelProximo"><img src="img/Bolo_3.jpg" alt="Bolo" title="Próximo"></a></div>
+        </div>
+        <div class="bolos" id="bolo3">
+            <div class="anterior"><a href="#bolo2" class="carrocelAnterior"><img src="img/Bolo_2.jpg" alt="Bolo" title="Anterior"></a></div>
+            <div class="proximo"><a href="#bolo1" class="carrocelProximo"><img src="img/Bolo_1.jpg" alt="Bolo" title="Próximo"></a></div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="itemMenu"><a class="linkMenu" href="./index.html#bolo1" target="_self" title="Página Inicial">Página Inicial</a></div>
+        <div class="itemMenu"><a class="linkMenu" href="./index.html#bolo1" target="_self" title="Empresa">Empresa</a></div>
+        <div class="itemMenu"><a class="linkMenu" href="./index.html#bolo1" target="_self" title="Produtos">Produtos</a></div>
+        <div class="itemMenu"><a class="linkMenu" href="./index.html#bolo1" target="_self" title="Contato">Contato</a></div>
+        <div class="itemMenu"><a class="linkMenu" href="./e-commerce.html#bolo1" target="_self" title="Carrinho">Carrinho</a></div>
+    </div>
+    <div>
+        <h1>Fábrica de Bolos</h1>
+        <table id="tabelaBolos">
+            <tr>
+                <td>
+                    <a href="img/Bolo_4.jpg" target="_blank" title="Tradicional">
+                        <img src="img/Bolo_4.jpg" alt="Tradicional"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="img/Bolo_5.jpg" target="_blank" title="Festa">
+                        <img src="img/Bolo_5.jpg" alt="Festa"/>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="celulaBolos"><p>Tradicional</p></td>
+                <td class="celulaBolos"><p>Festa</p></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="img/Bolo_6.jpg" target="_blank" title="Cupcakes">
+                        <img src="img/Bolo_6.jpg" alt="Cupcakes"/>
+                    </a>
+                </td>
+                <td>
+                    <a href="img/Bolo_7.jpg" target="_blank" title="Bolo de Pote">
+                        <img src="img/Bolo_7.jpg" alt="Bolo de Pote"/>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="celulaBolos"><p>Cupcakes</p></td>
+                <td class="celulaBolos"><p>Bolo de Pote</p></td>
+            </tr>
+        </table>
+    </div>
+    <div class="rodape">
+        <div class="itemRodape">
+            <a href="https://www.instagram.com/?hl=pt-br" target="_blank" title="Instagram">
+                <img class="icone" src="img/Ícone_1.png" alt="Instagram"/>
+            </a>
+        </div>
+        <div class="itemRodape">
+            <a href="https://pt-br.facebook.com/" target="_blank" title="Facebook">
+                <img class="icone" src="img/Ícone_2.png" alt="Facebook"/>
+            </a>
+        </div>
+        <div class="itemRodape">
+            <a href="https://twitter.com/" target="_blank" title="Twitter">
+                <img class="icone" src="img/Ícone_3.png" alt="Twitter"/>
+            </a>
+        </div>
+        <div class="itemRodape">
+            <a href="#bolo1" target="_self" title="Topo">
+                <img class="icone" id="topo" src="img/Ícone_4.png" alt="Topo"/>
+            </a>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

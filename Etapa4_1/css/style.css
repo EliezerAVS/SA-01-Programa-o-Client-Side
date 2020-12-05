@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    vertical-align:baseline;
+}
+body{
+    background-color: #4e709d;
+}
+.carrocel{
+    width: 100%;
+    height: 53.5vh;
+    background-color: crimson;
+}
+img{
+    width: 90%;
+    border: 2px solid;
+    color: #eaa0af;
+}
+.bolos{
+    display: none;
+    width: 100%;
+    height: 53.5vh;
+}
+.bolos:target{
+    display: block;
+}
+#bolo1{
+    background: url(../img/Bolo_1.jpg);
+}
+#bolo2{
+    background: url(../img/Bolo_2.jpg);
+}
+#bolo3{
+    background: url(../img/Bolo_3.jpg);
+}
+#bolo1, #bolo2, #bolo3{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.anterior{
+    float: left;
+}
+.proximo{
+    float: right;
+}
+.anterior, .proximo{
+    width: 27.1%;
+    height: 100%;
+}
+.carrocelAnterior, .carrocelProximo{
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+a, p, label{
+    font-size: 2vw;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+.menu{
+    position: sticky;
+    top: 0vw;
+    width: 100%;
+    height: 10vh;
+    background-color: #221a18;
+    display: inline-block;
+}
+.itemMenu{
+    width: 20%;
+    text-align: center;
+    padding-top: 2.5vh;
+    float: left;
+}
+h1{
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+#tabelaBolos{
+    text-align: center;
+    border-spacing: 2vw;
+}
+.celulaBolos{
+    width: 50%;
+    background-color: #221a18;
+    border: 2px solid #eaa0af;
+    font-size: 2vw;
+}
+.rodape{
+    width: 100%;
+    height: 10vh;
+    background-color: #221a18;
+    display: inline-block;
+}
+.itemRodape{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    padding-top: 1.25vh;
+    float: left;
+}
+.icone{
+    width: 15%;
+    border: none;
+    color: none;
+}
+#topo{
+    transform: rotate(180deg);
+}
+#tabelaVendaBolos{
+    text-align: center;
+    border-spacing: 2vw;
+    background-color: crimson;
+    border: 2px solid #eaa0af;
+    font-size: 2vw;
+    margin: 3vh;
+}
+.celulaVendaBolos{
+    width: 50%;
+    background-color: #221a18;
+    border: 2px solid #eaa0af;
+    vertical-align: middle;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+input{
+    width: 10%;
+    font-size: 1.5vw;
+}
+#totalCompra{
+    padding: 1vw;
+}
+.button{
+    width: 40%;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    background-color: #4e709d;
+    color: white;
+    border: 2px solid #eaa0af;
+    border-radius: 1vw;
+    outline: none;
+}
+#pagamento{
+    display: none;
+}
